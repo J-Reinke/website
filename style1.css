@@ -1,0 +1,204 @@
+body{
+    background-color: rgb(186, 186, 186);
+    /*background-image: url(spaceshort.gif);
+    background-size: 100%;
+    background-position-x: 0%;
+    background-position-y: auto;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    /*background-image: url("https://media.giphy.com/media/1UVEJVJJyNKWLSF1KP/giphy.gif");*/
+}
+
+
+.h1  { 
+   
+    /*background-image: url(john.png);*/
+   /* background-color: rgb(164, 132, 174);*/
+   background-color: black;
+   color: white;
+    /*justify-content: center;*/
+    /*margin: 50px;*/
+}
+
+
+.block1 {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(141, 141, 141));*/
+    /*background-image: url(spaceshot1.png);
+    /*background-image: url(space.mov);*/
+    background-size: auto;
+    background-position: 100px;
+    /*width: min(800px, 90%);*/
+    /*width: 500px;
+    /*background-blend-mode: multiply;*/
+    /*background-image: linear-gradient(rgb(0, 0, 0), rgb(128, 128, 128));*/
+}
+
+.image1{
+    /*mix-blend-mode:exclusion;
+    margin: 0 auto 0 auto;
+    /*position: relative;*/
+    /*height: 100px;*/
+    height: max(100px, 90%);
+    width: min(400px, 90%);
+    box-shadow: 5px 5px 20px;
+    /*width: 500px;*/
+   
+    /*width: 100%;
+    height: 20%;*/
+    /*text-align: center;*/
+    padding: 0px;
+   
+}
+
+.container{
+    /*background-color: rgb(255, 255, 255);*/
+    /*background-image: url(spaceshort.gif);*/
+    
+    background-image: url("https://media.giphy.com/media/1UVEJVJJyNKWLSF1KP/giphy.gif");
+    background-position-x: 0px;
+    background-position-y: -10px;
+    background-size: 70%;
+    filter:opacity(75%);
+    font-size: 18px;
+    font-weight: 100px;
+    line-height: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container > div    {
+   /* background-color: black;*/
+    color:rgb(120, 79, 255);
+}
+
+
+/*.container > div:nth-child(2)   {
+    background-color: rgb(176, 176, 176);
+}
+*/
+
+.flexRow1   {
+    margin-top: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    
+    /*text-align: center;*/
+    background-color: rgb(0, 0, 0);
+    /*width: 100%;*/
+    /*aspect-ratio: 16/9;*/
+    
+}
+
+.flexRow2   {
+    display: flex;
+    justify-content: space-around;
+    /*text-align: center;*/
+    background-color: rgb(0, 0, 0);
+    /*width: 100%;*/
+    /*aspect-ratio: 16/9;*/
+    margin-top: 1px;
+    
+}
+
+.flexRow3   {
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    /*height: 300px;*/
+    margin-top: 1px;
+    /*aspect-ratio: 16/9;*/
+    
+}
+
+.flexRow4   {
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    /*height: 300px;*/
+    margin-top: 1px;
+    /*aspect-ratio: 16/9;*/
+    
+}
+
+.img1 {
+    width: 30%;
+    aspect-ratio: 4/3;
+    /*text-align: left;*/
+}
+.img2 {
+    width: 30%;
+    aspect-ratio: 4/3;
+    /*text-align: left;*/
+}
+.img3 {
+    width: 30%;
+    aspect-ratio: 4/3;
+    /*text-align: left;*/
+}
+.img4    {
+    width: 30%;
+    /*height: 10%;*/
+    aspect-ratio: 16/9;
+}
+.img5   {
+    width: 30%;
+    aspect-ratio: 16/9;
+}
+.img6   {
+    width: 30%;
+    background-color: aqua;
+}
+.img6:hover {
+    width: 50%;
+    aspect-ratio: 16/9;
+    /*margin-left: -160%;*/
+    transition: 0.3s;
+}
+.img7   {
+    width: 30%;
+    background-color: rgb(217, 0, 255);
+}
+.img8   {
+    width: 30%;
+    background-color: rgb(255, 111, 0);
+}
+.img9   {
+    width: 30%;
+    background-color: rgb(0, 255, 17);
+}
+
+.img10   {
+    width: 30%;
+    background-color: rgb(0, 255, 17);
+}
+
+.img11   {
+    width: 30%;
+    background-color: rgb(0, 255, 17);
+}
+
+.img12   {
+    width: 30%;
+    background-color: rgb(0, 255, 17);
+}
+/*
+.backImg    {
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    size: 100px;
+}
+*/
